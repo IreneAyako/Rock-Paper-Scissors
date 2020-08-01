@@ -1,0 +1,38 @@
+  
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rock Paper Scissors Game</title>
+	<link rel="stylesheet" type="text/css" href="game.css">
+	<script type="text/javascript" src="game.js"></script>
+</head>
+<body>
+	<header class="header">
+		<h1>ROCK PAPER OR SCISSORS</h1>
+	</header>
+	<div class="container">
+	    <div class="score-container">
+		    <span class="user">PLAYER</span>
+		    <span id="score"></span>
+		    <span class="com">COMPUTER</span>
+	    </div>
+	    <div class="buttons">
+		    <button id="paper" class="bn" onclick="game(this.value)" value="paper">P<P</button>
+		    <button id="rock" class="bn" onclick="game(this.value)" value="rock">R</button>
+		    <button id="scissors" class="bn" onclick="game(this.value)" value="scissors">S</button>
+	   </div>
+	
+	   <div id="challenge">
+	   	<div id="you">
+	   	    <div id="YourObject"></div>
+	   	    <div class="who">PLAYER</div>
+	   	</div>
+	   	<div id="result"><p id="who"><p></div>
+	   	<div id="com">
+	   	    <div id="ComObject"></div>
+	   	    <div class="who">COMPUTER</div>
+	   	</div>
+	</div>
+	
+</body>
+</html>
